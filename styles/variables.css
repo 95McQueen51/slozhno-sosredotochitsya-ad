@@ -1,4 +1,26 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+/* variables.css */
+:root {
+  /* Цвета тёмной темы по умолчанию */
+  --accent-color: #ff0070;
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --title-shadow: #ff0070;
+  --title-decor-bg: #ff0070;
+  --title-decor-color: #000028;
+  --link-shadow: #ff0070;
+  --button-color: #ff0070;
+  --button-hover: rgba(255, 0, 112, 0.4);
+  --button-focus: rgba(255, 0, 112, 0.4);
+  
+  /* Шрифты */
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size: 18px;
+  
+  /* Отступы */
+  --gap: 10px;
+  --section-gap: 50px;
+  
+  /* Фоновые изображения только для шапки */
+  --header-bg-image: url("../images/cover-image-dark.png");
+}
